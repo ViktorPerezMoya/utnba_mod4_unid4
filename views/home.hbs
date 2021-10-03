@@ -1,0 +1,25 @@
+<h1>Bienvenido a la Biblioteca</h1>
+<p>Consulte los detalles de un libro</p>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>CÓDIGO</th>
+            <th>NOMBRE</th>
+            <th>AUTOR</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each libros}}
+        <tr>
+            <td>{{this.id}}</td>            
+            <td>{{this.nombre}}</td>            
+            <td>{{this.autor}}</td>
+            <td>
+                <a href="/libro/{{this.id}}">VER</a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>

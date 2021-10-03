@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "nombre": "Libro 1",
+        "autor": "Juan Perez",
+        "estado": "PEDIDO"
+    },
+    {
+        "id": 2,
+        "nombre": "Libro 2",
+        "autor": "Pedro Paez",
+        "estado": "DISPONIBLE"
+    },
+    {
+        "id": 3,
+        "nombre": "Libro 3",
+        "autor": "Ramon Valdez",
+        "estado": "DISPONIBLE"
+    },
+    {
+        "id": 4,
+        "nombre": "Libro 4",
+        "autor": "Juana Moyano",
+        "estado": "PEDIDO"
+    },
+    {
+        "id": 5,
+        "nombre": "Libro 5",
+        "autor": "Fernando Fernandez",
+        "estado": "PEDIDO"
+    }
+]
